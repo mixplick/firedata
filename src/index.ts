@@ -45,7 +45,7 @@ functions.cloudEvent('init', async (cloudEvent: any): Promise<any> => {
      * ```
      */
     const db = new FirestoreService({
-      projectId: 'pessoal-312700',
+      projectId: 'projectId',
       databaseId: database, // Use o ID do banco de dados padrão
     });
 
