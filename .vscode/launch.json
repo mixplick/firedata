@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Deploy Cloud Function",
+            "type": "cloudcode.cloudfunctions",
+            "request": "launch",
+            "functionName": "firedata",
+            "gen": "GEN_2",
+            "revision": "firedata-00019-vef",
+            "entryPoint": "init",
+            "testInput": "",
+            "region": "us-central1",
+            "runtime": "nodejs22",
+            "serviceAccount": "330097393559-compute@developer.gserviceaccount.com"
+        }
+    ]
+}
